@@ -22,7 +22,7 @@ import "../mwc-tab-scroller/mwc-tab-scroller.js";
 import { BaseElement, observer } from "../mwc-base/base-element.js";
 import { Tab } from "../mwc-tab/mwc-tab.js";
 import MDCTabBarFoundation from "../tab-bar/foundation.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
+import { html, property, query } from "lit-element/lit-element.js";
 export class TabBarBase extends BaseElement {
   constructor() {
     super(...arguments);

@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { TabBase } from './mwc-tab-base.js';
 import { style } from "./mwc-tab-css.js";
 let Tab = class Tab extends TabBase {};

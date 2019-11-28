@@ -19,8 +19,8 @@ limitations under the License.
 import { addHasRemoveClass, BaseElement } from "../mwc-base/base-element.js";
 import MDCFadingTabIndicatorFoundation from "../tab-indicator/fading-foundation.js";
 import MDCSlidingTabIndicatorFoundation from "../tab-indicator/sliding-foundation.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 export class TabIndicatorBase extends BaseElement {
   constructor() {
     super(...arguments);

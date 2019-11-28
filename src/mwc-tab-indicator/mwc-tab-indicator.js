@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { TabIndicatorBase } from './mwc-tab-indicator-base.js';
 import { style } from './mwc-tab-indicator-css.js';
 let TabIndicator = class TabIndicator extends TabIndicatorBase {};

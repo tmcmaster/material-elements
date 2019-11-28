@@ -16,7 +16,7 @@ limitations under the License.
 */
 import { __decorate } from "tslib/tslib.es6.js";
 import { style } from "../mwc-icon-button/mwc-icon-button-css.js";
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { IconButtonToggleBase } from "./mwc-icon-button-toggle-base.js";
 let IconButtonToggle = class IconButtonToggle extends IconButtonToggleBase {};
 IconButtonToggle.styles = style;

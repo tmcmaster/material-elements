@@ -23,8 +23,8 @@ import MDCDialogFoundation from "../dialog/foundation.js";
 import { applyPassive } from "../dom/events.js";
 import { closest, matches } from "../dom/ponyfill.js";
 import { addHasRemoveClass, BaseElement, observer } from "../mwc-base/base-element.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 const blockingElements = document.$blockingElements;
 export class DialogBase extends BaseElement {
   constructor() {

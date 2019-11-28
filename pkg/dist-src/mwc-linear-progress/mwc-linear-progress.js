@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { LinearProgressBase } from './mwc-linear-progress-base.js';
 import { style } from './mwc-linear-progress-css.js';
 let LinearProgress = class LinearProgress extends LinearProgressBase {};

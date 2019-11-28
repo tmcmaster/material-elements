@@ -18,7 +18,7 @@ import { applyPassive } from "../dom/events.js";
 import { matches } from "../dom/ponyfill.js";
 import MDCRippleFoundation from "../ripple/foundation.js";
 import { supportsCssVariables } from "../ripple/util.js";
-import { directive, noChange, NodePart, templateFactory } from "./node_modules/lit-html/lit-html.js";
+import { directive, noChange, NodePart, templateFactory } from "lit-html/lit-html.js";
 import { style } from './mwc-ripple-global-css.js';
 const supportsCssVariablesWin = supportsCssVariables(window); // NOTE: This is a workaround for
 // https://bugs.webkit.org/show_bug.cgi?id=173027. Since keyframes on

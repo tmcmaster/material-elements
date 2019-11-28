@@ -19,7 +19,7 @@ limitations under the License.
 import { matches } from "../dom/ponyfill.js";
 import { addHasRemoveClass, BaseElement } from "../mwc-base/base-element.js";
 import MDCTabScrollerFoundation from "../tab-scroller/foundation.js";
-import { eventOptions, html, query } from "./node_modules/lit-element/lit-element.js";
+import { eventOptions, html, query } from "lit-element/lit-element.js";
 export class TabScrollerBase extends BaseElement {
   constructor() {
     super(...arguments);

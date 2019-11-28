@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { SnackbarBase } from './mwc-snackbar-base.js';
 import { style } from './mwc-snackbar-css.js';
 let Snackbar = class Snackbar extends SnackbarBase {};

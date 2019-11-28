@@ -3,6 +3,6 @@
         "pika:build": "npm install && npx @pika/web --dest ../docs/web_modules"
     },
     "dependencies": {
-        "@wonkytech/material-elements": "^0.0.3"
+        "@wonkytech/material-elements": "^0.0.4"
     }
 }

@@ -21,9 +21,9 @@ import { addHasRemoveClass, FormElement } from "../mwc-base/form-element.js";
 import { floatingLabel } from "../mwc-floating-label/mwc-floating-label-directive.js";
 import { lineRipple } from "../mwc-line-ripple/mwc-line-ripple-directive.js";
 import MDCTextFieldFoundation from "../textfield/foundation.js";
-import { eventOptions, html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
-import { ifDefined } from "./node_modules/lit-html/directives/if-defined.js";
+import { eventOptions, html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
+import { ifDefined } from "lit-html/directives/if-defined.js";
 import { characterCounter } from './mwc-character-counter-directive.js';
 const passiveEvents = ['touchstart', 'touchmove', 'scroll', 'mousewheel'];
 

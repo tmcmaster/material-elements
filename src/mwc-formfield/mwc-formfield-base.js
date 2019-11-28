@@ -3,8 +3,8 @@ import MDCFormFieldFoundation from "../form-field/foundation.js";
 import { BaseElement, observer } from "../mwc-base/base-element.js";
 import { FormElement } from "../mwc-base/form-element.js";
 import { findAssignedElement } from "../mwc-base/utils.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 export class FormfieldBase extends BaseElement {
   constructor() {
     super(...arguments);

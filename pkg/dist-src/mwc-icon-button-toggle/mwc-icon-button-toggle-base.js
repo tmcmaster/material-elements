@@ -18,7 +18,7 @@ import { __decorate } from "tslib/tslib.es6.js";
 import MDCIconButtonToggleFoundation from "../icon-button/foundation.js";
 import { addHasRemoveClass, BaseElement, observer } from "../mwc-base/base-element.js";
 import { ripple } from "../mwc-ripple/ripple-directive.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
+import { html, property, query } from "lit-element/lit-element.js";
 export class IconButtonToggleBase extends BaseElement {
   constructor() {
     super(...arguments);

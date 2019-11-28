@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 import MDCSnackbarFoundation from "../snackbar/foundation.js";
-import { directive } from "./node_modules/lit-html/lit-html.js";
+import { directive } from "lit-html/lit-html.js";
 const {
   ARIA_LIVE_LABEL_TEXT_ATTR
 } = MDCSnackbarFoundation.strings;

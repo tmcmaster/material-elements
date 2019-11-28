@@ -1,7 +1,7 @@
 import { __decorate } from "tslib/tslib.es6.js";
 import { ripple } from "../mwc-ripple/ripple-directive.js";
-import { html, LitElement, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, LitElement, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 export class ButtonBase extends LitElement {
   constructor() {
     super(...arguments);

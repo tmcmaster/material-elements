@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { SwitchBase } from './mwc-switch-base.js';
 import { style } from './mwc-switch-css.js';
 let Switch = class Switch extends SwitchBase {};

@@ -18,8 +18,8 @@ limitations under the License.
 
 import { addHasRemoveClass, BaseElement, observer } from "../mwc-base/base-element.js";
 import MDCSnackbarFoundation from "../snackbar/foundation.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 import { accessibleSnackbarLabel } from "./accessible-snackbar-label-directive.js";
 const {
   OPENING_EVENT,

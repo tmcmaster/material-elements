@@ -1,5 +1,5 @@
 import { MDCFloatingLabelFoundation } from "../floating-label/foundation.js";
-import { directive } from "./node_modules/lit-html/lit-html.js";
+import { directive } from "lit-html/lit-html.js";
 
 const createAdapter = labelElement => {
   return {

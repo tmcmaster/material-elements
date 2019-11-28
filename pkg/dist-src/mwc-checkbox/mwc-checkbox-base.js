@@ -2,7 +2,7 @@ import { __decorate } from "tslib/tslib.es6.js";
 import MDCCheckboxFoundation from "../checkbox/foundation.js";
 import { addHasRemoveClass, FormElement, observer } from "../mwc-base/form-element.js";
 import { rippleNode } from "../mwc-ripple/ripple-directive.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
+import { html, property, query } from "lit-element/lit-element.js";
 export class CheckboxBase extends FormElement {
   constructor() {
     super(...arguments);

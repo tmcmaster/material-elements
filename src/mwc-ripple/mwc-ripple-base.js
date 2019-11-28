@@ -16,8 +16,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { html, LitElement, property } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, LitElement, property } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 import { ripple } from './ripple-directive.js';
 export class RippleBase extends LitElement {
   constructor() {

@@ -17,7 +17,7 @@ limitations under the License.
 */
 
 import { ripple } from "../mwc-ripple/ripple-directive.js";
-import { html, LitElement, property } from "./node_modules/lit-element/lit-element.js";
+import { html, LitElement, property } from "lit-element/lit-element.js";
 export class IconButtonBase extends LitElement {
   constructor() {
     super(...arguments);

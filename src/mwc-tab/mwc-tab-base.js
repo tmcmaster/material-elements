@@ -21,8 +21,8 @@ import "../mwc-tab-indicator/mwc-tab-indicator.js";
 import { addHasRemoveClass, BaseElement } from "../mwc-base/base-element.js";
 import { ripple } from "../mwc-ripple/ripple-directive.js";
 import MDCTabFoundation from "../tab/foundation.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 import { style } from "./mwc-tab-css.js"; // used for generating unique id for each tab
 
 let tabIdCounter = 0;

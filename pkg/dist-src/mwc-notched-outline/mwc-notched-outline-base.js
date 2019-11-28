@@ -18,7 +18,7 @@ limitations under the License.
 
 import { BaseElement } from "../mwc-base/form-element.js";
 import { MDCNotchedOutlineFoundation } from "../notched-outline/foundation.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
+import { html, property, query } from "lit-element/lit-element.js";
 export class NotchedOutlineBase extends BaseElement {
   constructor() {
     super(...arguments);

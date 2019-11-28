@@ -17,7 +17,7 @@ limitations under the License.
 */
 
 import { style } from "../mwc-top-app-bar/mwc-top-app-bar-css.js";
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { TopAppBarFixedBase } from "./mwc-top-app-bar-fixed-base.js";
 let TopAppBarFixed = class TopAppBarFixed extends TopAppBarFixedBase {};
 TopAppBarFixed.styles = style;

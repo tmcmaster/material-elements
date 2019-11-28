@@ -17,8 +17,8 @@ limitations under the License.
 */
 
 import { ripple } from "../mwc-ripple/ripple-directive.js";
-import { html, LitElement, property } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, LitElement, property } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 export class FabBase extends LitElement {
   constructor() {
     super(...arguments);

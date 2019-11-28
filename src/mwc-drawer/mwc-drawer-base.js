@@ -25,8 +25,8 @@ import { strings } from "../drawer/constants.js";
 import MDCDismissibleDrawerFoundation from "../drawer/dismissible/foundation.js";
 import MDCModalDrawerFoundation from "../drawer/modal/foundation.js";
 import { addHasRemoveClass, BaseElement, observer } from "../mwc-base/base-element.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 const blockingElements = document.$blockingElements;
 export class DrawerBase extends BaseElement {
   constructor() {

@@ -20,8 +20,8 @@ import { addHasRemoveClass, BaseElement } from "../mwc-base/base-element.js";
 import { supportsPassiveEventListener } from "../mwc-base/utils.js";
 import { strings } from "../top-app-bar/constants.js";
 import MDCTopAppBarBaseFoundation from "../top-app-bar/foundation.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
 export const passiveEventOptionsIfSupported = supportsPassiveEventListener ? {
   passive: true
 } : undefined;

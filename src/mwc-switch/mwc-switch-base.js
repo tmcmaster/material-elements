@@ -19,7 +19,7 @@ limitations under the License.
 import { addHasRemoveClass, FormElement, observer } from "../mwc-base/form-element.js";
 import { ripple } from "../mwc-ripple/ripple-directive.js";
 import MDCSwitchFoundation from "../switch/foundation.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
+import { html, property, query } from "lit-element/lit-element.js";
 export class SwitchBase extends FormElement {
   constructor() {
     super(...arguments);

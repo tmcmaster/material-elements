@@ -16,9 +16,9 @@ limitations under the License.
 */
 import { __decorate } from "tslib/tslib.es6.js";
 import { TextFieldBase } from "../mwc-textfield/mwc-textfield-base.js";
-import { html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
-import { ifDefined } from "./node_modules/lit-html/directives/if-defined.js";
+import { html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
+import { ifDefined } from "lit-html/directives/if-defined.js";
 export class TextAreaBase extends TextFieldBase {
   constructor() {
     super(...arguments);

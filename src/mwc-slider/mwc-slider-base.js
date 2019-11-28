@@ -19,9 +19,9 @@ limitations under the License.
 import { applyPassive } from "../dom/events.js";
 import { addHasRemoveClass, FormElement, observer } from "../mwc-base/form-element.js";
 import MDCSliderFoundation from "../slider/foundation.js";
-import { eventOptions, html, property, query } from "./node_modules/lit-element/lit-element.js";
-import { classMap } from "./node_modules/lit-html/directives/class-map.js";
-import { styleMap } from "./node_modules/lit-html/directives/style-map.js";
+import { eventOptions, html, property, query } from "lit-element/lit-element.js";
+import { classMap } from "lit-html/directives/class-map.js";
+import { styleMap } from "lit-html/directives/style-map.js";
 const INPUT_EVENT = 'input';
 const CHANGE_EVENT = 'change';
 export class SliderBase extends FormElement {

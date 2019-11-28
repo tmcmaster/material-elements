@@ -16,7 +16,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { customElement } from "./node_modules/lit-element/lit-element.js";
+import { customElement } from "lit-element/lit-element.js";
 import { TopAppBarBase } from './mwc-top-app-bar-base.js';
 import { style } from './mwc-top-app-bar-css.js';
 let TopAppBar = class TopAppBar extends TopAppBarBase {};

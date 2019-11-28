@@ -17,7 +17,7 @@ limitations under the License.
 */
 
 import MDCTopAppBarFoundation from "../top-app-bar/standard/foundation.js";
-import { property } from "./node_modules/lit-element/lit-element.js";
+import { property } from "lit-element/lit-element.js";
 import { passiveEventOptionsIfSupported, TopAppBarBaseBase } from "./mwc-top-app-bar-base-base.js";
 export class TopAppBarBase extends TopAppBarBaseBase {
   constructor() {
