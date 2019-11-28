@@ -1,6 +1,6 @@
 {
   "name": "@wonkytech/material-elements",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Attempt to make the material design web component library available with Pika registry.",
   "main": "index.js",
   "scripts": {
