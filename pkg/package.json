@@ -1,7 +1,7 @@
 {
   "name": "@wonkytech/material-elements",
   "description": "Attempt to make the material design web component library available with Pika registry.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "files": [
     "dist-*/",

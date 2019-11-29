@@ -23,8 +23,32 @@ render(html`
     <div>
         <h3>Material Elements</h3>
         <mwc-button>MWC Button</mwc-button>
-        <mwc-textfield></mwc-textfield>
+        <mwc-textfield label="label"></mwc-textfield>
+        
+        <div>
+          <mwc-checkbox></mwc-checkbox>
+          <mwc-checkbox checked></mwc-checkbox>
+          <mwc-checkbox indeterminate></mwc-checkbox>
+        </div>
+        
+        <div>
+          <mwc-checkbox disabled></mwc-checkbox>
+          <mwc-checkbox disabled checked></mwc-checkbox>
+          <mwc-checkbox disabled indeterminate></mwc-checkbox>
+        </div>
+        
+        <div>
+          <style>
+            mwc-checkbox.pink {
+              --mdc-theme-secondary: #e91e63;
+            }
+          </style>
+          <mwc-checkbox class="pink"></mwc-checkbox>
+          <mwc-checkbox class="pink" checked></mwc-checkbox>
+          <mwc-checkbox class="pink" indeterminate></mwc-checkbox>
+        </div>
     </div>
+    
     
     
 `, document.querySelector('body'));
