@@ -1,5 +1,6 @@
 {
   "imports": {
-    "@wonkytech/material-elements": "./@wonkytech/material-elements.js"
+    "@wonkytech/material-elements": "./@wonkytech/material-elements.js",
+    "codeflask": "./codeflask.js"
   }
 }

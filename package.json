@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/tmcmaster/material-elements/issues"
   },
-  "homepage": "https://github.com/tmcmaster/material-elements#readme",
+  "homepage": "https://tmcmaster.github.io/material-elements",
   "dependencies": {
     "@polymer/polymer": "^3.3.1",
     "blocking-elements": "^0.1.0",
