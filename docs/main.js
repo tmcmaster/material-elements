@@ -1,17 +1,15 @@
 import {html, render} from "./web_modules/lit-html.js";
 
-import './tm-demo.js';
-
 render(html`
     <style>
         body {
             background: lightgray;
         }
     </style>
-    <tm-demo heading="Material Elements">
+    <tm-examples heading="Material Elements">
     
         <section title="MWC Button">
-             <style>
+            <style>
                 mwc-button {
                     width: 100%;
                 }
@@ -42,6 +40,6 @@ render(html`
             </div>
         </section>
         
-    </tm-demo>
+    </tm-examples>
     
 `, document.querySelector('body'));
