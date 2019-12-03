@@ -3,7 +3,12 @@ import {html, render} from "./web_modules/lit-html.js";
 render(html`
     <style>
         body {
-            background: lightgray;
+            padding: 0;
+            margin: 0;
+            left:0;
+            top:0;
+            width: 100vw;
+            height: 100vh;  
         }
     </style>
     <tm-examples heading="Material Elements">
