@@ -48524,7 +48524,7 @@ window.customElements.define('tm-examples', class extends LitElement {
         this.shadowRoot.getElementById('ddd').viewSource(sourceList[index]);
       };
 
-      button.style = 'float:right;margin-top:-30px;';
+      button.style = 'float:right;margin-top:-30px;border:solid lightgrey 0.5px;';
       button.appendChild(document.createTextNode('Source'));
       const hr = document.createElement('hr');
       hr.style = "border:solid lightgrey 0.5px;";
@@ -48588,6 +48588,8 @@ window.customElements.define('tm-examples', class extends LitElement {
 
             article {
                 min-width: 500px;
+                max-width:1000px;
+                width:100%;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
@@ -48626,6 +48628,7 @@ window.customElements.define('tm-examples', class extends LitElement {
             footer {
                 //border: solid red 1px;
                 max-height: 25px;
+                margin-top: 5px;
             }
         `;
   } // noinspection JSUnusedGlobalSymbols
