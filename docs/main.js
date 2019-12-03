@@ -1,5 +1,12 @@
 import {html, render} from "./web_modules/lit-html.js";
 
+let sites = {
+    'src': 'https://github.com/tmcmaster/material-elements',
+    'pika': 'https://www.pika.dev/npm/@wonkytech/material-elements',
+    'npm': 'https://www.npmjs.com/package/@wonkytech/material-elements',
+    'docs': 'https://github.com/tmcmaster/material-elements#readme'
+};
+
 render(html`
     <style>
         body {
@@ -11,7 +18,7 @@ render(html`
             height: 100vh;  
         }
     </style>
-    <tm-examples heading="Material Elements">
+    <tm-examples heading="Material Elements" .sites="${sites}">
     
         <section title="MWC Button">
             <style>
