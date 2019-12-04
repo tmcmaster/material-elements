@@ -27,20 +27,12 @@
   },
   "homepage": "https://tmcmaster.github.io/material-elements",
   "dependencies": {
-    "@polymer/polymer": "^3.3.1",
+    "@wonkytech/polymer-elements": "0.0.8",
     "blocking-elements": "^0.1.0",
     "lit-element": "^2.0.1",
     "lit-html": "^1.0.0",
     "tslib": "^1.10.0",
-    "wicg-inert": "^3.0.0",
-    "@polymer/iron-a11y-announcer": "^3.0.2",
-    "@polymer/iron-a11y-keys-behavior": "^3.0.1",
-    "@polymer/iron-icon": "^3.0.1",
-    "@polymer/iron-iconset-svg": "^3.0.1",
-    "@polymer/iron-list": "^3.1.0",
-    "@polymer/iron-media-query": "^3.0.1",
-    "@polymer/iron-resizable-behavior": "^3.0.1",
-    "@polymer/iron-scroll-target-behavior": "^3.0.1"
+    "wicg-inert": "^3.0.0"
   },
   "devDependencies": {
     "@material/mwc-button": "^0.11.1",
