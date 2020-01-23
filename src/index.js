@@ -1,3 +1,7 @@
+import {loadLink} from '@wonkytech/tm-script-loader';
+
+loadLink("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 import './mwc-dialog/mwc-dialog.js';
 import './mwc-icon-button/mwc-icon-button.js';
 import './mwc-button/mwc-button.js';

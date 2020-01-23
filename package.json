@@ -28,6 +28,7 @@
   "homepage": "https://tmcmaster.github.io/material-elements",
   "dependencies": {
     "@wonkytech/polymer-elements": "~0.0",
+    "@wonkytech/tm-script-loader": "~0.1",
     "blocking-elements": "^0.1.0",
     "lit-element": "^2.0.1",
     "lit-html": "^1.0.0",
