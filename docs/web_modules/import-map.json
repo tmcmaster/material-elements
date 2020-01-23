@@ -2,6 +2,6 @@
   "imports": {
     "@wonkytech/tm-examples": "./@wonkytech/tm-examples.js",
     "@wonkytech/material-elements": "./@wonkytech/material-elements.js",
-    "codeflask": "./codeflask.js"
+    "@wonkytech/tm-script-loader": "./@wonkytech/tm-script-loader.js"
   }
 }

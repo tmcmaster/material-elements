@@ -4,7 +4,7 @@
     },
     "dependencies": {
         "@wonkytech/tm-examples": "~0.1",
-        "@wonkytech/material-elements": "~0.0",
+        "@wonkytech/material-elements": "~0.1",
         "@wonkytech/tm-script-loader": "~0.1"
     }
 }

@@ -1,1 +1,2 @@
-import '../common/index-4baeda67.js';
+import '../common/index-19fcec48.js';
+import './tm-script-loader.js';

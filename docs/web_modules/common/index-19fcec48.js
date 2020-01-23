@@ -1,3 +1,5 @@
+import { loadLink } from '../@wonkytech/tm-script-loader.js';
+
 /**
  * @license
  * Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
@@ -15529,5 +15531,7 @@ TextField = __decorate([customElement('mwc-textfield')], TextField);
 let TopAppBar = class TopAppBar extends TopAppBarBase {};
 TopAppBar.styles = style$k;
 TopAppBar = __decorate([customElement('mwc-top-app-bar')], TopAppBar);
+
+loadLink("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 export { LitElement as L, css as c, html as h };

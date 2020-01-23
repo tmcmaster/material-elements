@@ -52,6 +52,11 @@ render(html`
             </div>
         </section>
         
+        <section title="Menu Icon">
+            <mwc-icon>menu</mwc-icon> 
+        </section>
+
+        
     </tm-examples>
     
 `, document.querySelector('body'));
